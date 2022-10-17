@@ -63,7 +63,7 @@ class CartTest extends TestCase
         Product::factory()->count(3)->create();
 
         $this->get('/cart')
-            ->assertViewIs('cart');
+            ->assertViewIs('/cart');
     }
 
     /** @test */
