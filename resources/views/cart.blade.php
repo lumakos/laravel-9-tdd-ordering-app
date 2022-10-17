@@ -74,7 +74,5 @@
     </div>
 
 </div>
-
-<script src="{{ mix('js/cart.js') }}" defer></script>
 </body>
 </html>
