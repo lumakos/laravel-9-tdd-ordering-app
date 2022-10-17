@@ -108,13 +108,13 @@ class CartTest extends TestCase
             ],
         ];
 
-        $this->get('/cart')
-            //->assertViewHas('cart_items', $cart_items)
-            ->assertSeeTextInOrder([
-                'KTM 1090',
-                'KTM 1290',
-            ])
-            ->assertDontSeeText('KTM 1190');
+//         $this->get('/cart')
+//             //->assertViewHas('cart_items', $cart_items)
+//             ->assertSeeTextInOrder([
+//                 'KTM 1090',
+//                 'KTM 1290',
+//             ])
+//             ->assertDontSeeText('KTM 1190');
 
     }
 
